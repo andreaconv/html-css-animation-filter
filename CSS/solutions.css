@@ -19,3 +19,9 @@
   width: 120px;
   height: 120px;
 }
+
+.ex-5-square:active{
+  margin: 35px;
+  width: 30px;
+  height: 30px;
+}
