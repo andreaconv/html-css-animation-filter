@@ -44,3 +44,13 @@
   border-radius: 20px;
   filter: grayscale(0.7);
 }
+
+.ex-10-icon{
+  animation: rotazione 1s linear infinite;
+}
+
+@keyframes rotazione {
+0% {
+    transform: rotate(-1turn);
+  }
+}
