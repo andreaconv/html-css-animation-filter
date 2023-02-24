@@ -73,3 +73,33 @@
     transform: rotate(0.75turn);
   }
 }
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: spostatopwhite 2s linear;
+}
+@keyframes spostatopwhite {
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: 60%;
+  }
+  100% {
+      left: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: spostabottomwhite 2s linear;
+}
+@keyframes spostabottomwhite {
+  0% {
+      right: 20%;
+  }
+  50% {
+      right: 60%;
+  }
+  100% {
+      right: 20%;
+  }
+}
