@@ -30,7 +30,11 @@
   filter: grayscale(1);
 }
 
-.ex-7-img{
+.ex-7-img, .ex-8-img{
   transition: all 2s;
 }
 
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter: sepia(100%);
+}
